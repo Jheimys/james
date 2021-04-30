@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.header {
+    background-image: url(https://i.pinimg.com/originals/c5/9a/8f/c59a8f036ce3dc4c0327edc48a6a4973.jpg);
+    
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 153px 0;
+    font-size: 15px;
+    box-shadow: 0 0 15px black;
+    margin-bottom: 10px;
+    background-position:center ;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 4px;
+    
+  }
+
+  .header .foto{
+      border-radius: 50px;
+      height: 110px;
+      width: 100px;
+  }
+
+  .container{
+      display: flex;
+  }
+
+  .navbar{
+      width: 30%;
+      padding: 30px;
+  }
+
+  .navbar ul {
+    list-style: none;  
+  }
+
+  .navbar ul li {
+    border-radius: 10px 0px;
+    background-color: rgb(2 19 3 / 90%);
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 360px;
+  }
+
+  .navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .container .navbar ul li a:hover{
+      color: blue;
+      border-bottom: 2px solid blue;
+    
+  }
+
+  .content{
+      width: 80%;
+      height: 70vh;
+      background: #8ee0e8c4;
+      box-shadow: 2px 2px 0 rgb(228, 228, 228);
+      padding: 30px 30px;
+      border-radius: 40px 0;
+      margin: 20px 20px 20px 0;
+  }
+
+  .footer{
+      position: absolute;
+      bottom: -280px;
+      width: 100%;
+      margin-top: auto;
+      background-color: rgb(2 19 3 / 90%);
+      text-align: center;
+      list-style: none;
+      color: white;
+      padding: 20px 0; 
+      list-style: none;
+      text-decoration: none;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+
+  .footer a:hover{
+      color: blue;
+      
+  }
+
+
+  /* *************
+    Social
+ **************** */
+
+ .contentSocial{
+    width: 80%;
+ }
+ 
+ .contentSocial h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 44px;
+    margin: 0 20px;
+    padding: 10px 0 0;
+ }
+ .social{
+    display: flex;
+    justify-content: space-around; /*  OBS.: Isso só funciona quando tem o flex */
+    list-style: none;
+    text-align: center;
+    margin: 0  120px;
+
+
+}
+.social img{
+    width: 50px;
+}
+
+.social li{
+    text-align: center;
+}
+
+.social li a{
+    padding: 40px;
+    text-align: center;
+}
+
+  
